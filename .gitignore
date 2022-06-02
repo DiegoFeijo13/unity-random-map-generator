@@ -8,6 +8,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -21,6 +22,9 @@
 
 # Visual Studio cache directory
 .vs/
+
+# VS Code cache directory
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -42,6 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.vsconfig
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -58,3 +63,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/Random Dungeon Generator/Temp
+/Random Dungeon Generator/Builds
+/Random Dungeon Generator/Library
+/Random Dungeon Generator/obj
+/Random Dungeon Generator/UserSettings
